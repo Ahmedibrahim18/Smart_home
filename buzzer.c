@@ -7,6 +7,9 @@
 #include"buzzer.h"
 #include"gpio.h"
 
+
+
+
 void Buzzer_Init(void){
 	GPIO_setupPinDirection(BUZZER_PORT_ID,BUZZER_PIN_ID,PIN_OUTPUT); // initialize pin direction
 
